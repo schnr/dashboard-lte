@@ -6,9 +6,9 @@ export default class Menu extends Component {
     render() {
         return (
                  <ul className="sidebar-menu tree" data-widget="tree">
-                     <MenuItem path='/dashboard' label='Dashboard' icon='dashboard'></MenuItem>
+                     <MenuItem path='/dashboard' label='Dashboard' icon='dashboard' />
                      <MenuTree label="Arvore"  icon="edit">
-                         <MenuItem path='/dashboard' label="teste" icon="usd"></MenuItem>
+                         <MenuItem path='/dashboard' label="teste" icon="usd" />
                      </MenuTree>
                  </ul>
         )
